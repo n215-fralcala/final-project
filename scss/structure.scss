@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+}
+// .hero {
+//   width: 90%;
+//   height: 400px;
+//   margin: 50px auto 0 auto;
+//   background-color: bisque;
+//   position: relative;
+// }
+
+// .callout {
+//   position: absolute;
+//   bottom: -10px;
+//   margin-bottom: 0;
+//   font-size: 50px;
+//   text-shadow: 3px 3px 8px #888;
+// }

@@ -1,0 +1,7 @@
+@mixin add-background-image($imageURL: "") {
+  background-image: url($imageURL);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+// example: @include add-background-image("../images/tour-01.jpg");
