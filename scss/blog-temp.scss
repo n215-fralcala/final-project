@@ -1,0 +1,52 @@
+.blog-temp {
+  width: 981px;
+  margin: 0 auto;
+
+  .hero {
+    width: 100%;
+    height: 300px;
+    @include add-image-linear("../images/blog.jpg", #ee4367be, #ee4367be);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .calendar {
+      width: 155.25px;
+      height: 155.25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $site-pink;
+      color: white;
+      font-family: gill;
+
+      .num {
+        font-size: 55px;
+        font-weight: bold;
+      }
+
+      .month {
+        font-size: 31px;
+      }
+    }
+  }
+  .wrapper {
+    margin-bottom: 146px;
+
+    .container {
+      margin-top: 57px;
+      h2 {
+        font-family: gill;
+        font-size: 20px;
+        font-weight: normal;
+        color: $site-pink;
+      }
+
+      p {
+        max-width: 856px;
+        margin-top: 30px;
+      }
+    }
+  }
+}

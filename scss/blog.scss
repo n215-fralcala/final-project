@@ -1,0 +1,74 @@
+.blog {
+  width: 979px;
+  margin: 0 auto;
+  h1 {
+    font-family: gill;
+    font-size: 25px;
+    margin-top: 65.5px;
+  }
+
+  .line {
+    width: 229px;
+    height: 20px;
+    border-bottom: 2px solid black;
+    margin-top: -20px;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30.5px 0 36px;
+
+    a {
+      text-decoration: none;
+    }
+
+    .holder {
+      width: 460px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      .calendar {
+        font-family: gill;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $site-pink;
+        color: white;
+        .num {
+          font-size: 22px;
+          font-weight: bold;
+        }
+
+        .month {
+          font-size: 12px;
+        }
+      }
+
+      .text {
+        width: 380px;
+
+        .pic {
+          width: 100%;
+          height: 140px;
+          @include add-background-image("../images/blog.jpg");
+          margin-bottom: 20px;
+        }
+
+        p {
+          color: black;
+        }
+
+        .bottom-text {
+          color: $site-pink;
+        }
+      }
+    }
+  }
+}

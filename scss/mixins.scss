@@ -5,3 +5,12 @@
   background-size: cover;
 }
 // example: @include add-background-image("../images/tour-01.jpg");
+
+@mixin add-image-linear($imageURL: "", $color1: "", $color2: "") {
+  background-image: linear-gradient($color1, $color2), url($imageURL);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// example: @include add-image-linear("../images/1.png", #ffd240be, #ffd240be);

@@ -1,0 +1,36 @@
+.about {
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+
+  .hero {
+    width: 100%;
+    height: 378.75px;
+    background-image: linear-gradient(#ffd240c9, #ffd240c9),
+      url(../images/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 85.5px;
+    display: flex;
+
+    h1 {
+      position: relative;
+      font-family: gill;
+      font-size: 25px;
+      align-self: flex-end;
+      bottom: -20px;
+    }
+  }
+
+  .line {
+    width: 225px;
+    border-bottom: 2px solid black;
+    margin-top: 10.5px;
+  }
+
+  p {
+    margin: 36.5px 0 95px;
+  }
+}

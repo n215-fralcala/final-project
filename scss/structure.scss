@@ -17,20 +17,31 @@ p {
   margin-bottom: 16px;
 }
 
+// fonts //
+@font-face {
+  font-family: gill;
+  src: url(../fonts/GillSans.ttf);
+}
+@font-face {
+  font-family: serif-bold;
+  src: url(../fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: serif-bi;
+  src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: serif-italic;
+  src: url(../fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: pt-serif;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+/////
+
 // #app {
 // }
-// .hero {
-//   width: 90%;
-//   height: 400px;
-//   margin: 50px auto 0 auto;
-//   background-color: bisque;
-//   position: relative;
-// }
-
-// .callout {
-//   position: absolute;
-//   bottom: -10px;
-//   margin-bottom: 0;
-//   font-size: 50px;
-//   text-shadow: 3px 3px 8px #888;
-// }
+.space {
+  margin: 0 20px;
+}
